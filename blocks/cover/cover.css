@@ -1,5 +1,4 @@
 .cover {
-  width: 92,5%;
   text-align: center;
   padding: 0 48px;
   overflow: hidden;
@@ -7,7 +6,6 @@
 
 @media screen and (max-width: 1030px) {
   .cover {
-    width: 100%;
     padding: 0;
   }
 }

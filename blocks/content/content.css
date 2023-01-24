@@ -1,4 +1,7 @@
 .content {
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
   row-gap: 92px;
   margin: auto;
   display: flex;

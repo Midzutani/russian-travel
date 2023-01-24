@@ -12,7 +12,13 @@
 
 @media screen and (max-width: 770px) {
   .lead__title {
-    width: 93,75%;
+    max-width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .lead__title {
+    font-size: 60px;
   }
 }
 

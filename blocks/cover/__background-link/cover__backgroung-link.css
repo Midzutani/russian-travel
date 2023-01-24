@@ -20,6 +20,24 @@
   align-items: center;
 }
 
+.cover__background-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.2s ease;
+}
+
+.cover__background-link:hover:before {
+  opacity: 0.7;
+  transition: 300ms;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1030px) {
   .cover__background-link {
     min-height: 640px;
@@ -32,7 +50,20 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .cover__background-link {
+    min-height: 372px;
+  }
+} 
+
+
 @media screen and (max-width: 430px) {
+  .cover__background-link {
+    min-height: 265px;
+  }
+}
+
+@media screen and (max-width: 322px) {
   .cover__background-link {
     min-height: 200px;
   }
