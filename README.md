@@ -1,4 +1,4 @@
-#Путешествие по России#(https://midzutani.github.io/russian-travel/index.html)
+<h1>Путешествие по России</h1>
 
 ### Примененные технологии:
 * Grid layout
@@ -26,3 +26,5 @@ cover - блок-ссылка с затенением.
 
 footer - подвал сайта.
 <blockquote>Пространство разделено с помощью flexbox свойства space-between</blockquote>
+
+[ссылка на pages](https://midzutani.github.io/russian-travel/index.html)
