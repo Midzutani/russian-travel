@@ -1,26 +1,20 @@
 .photo-grid {
-  width: 92.5%;
+  max-width: calc(100% - 96px);
   margin: auto;
   display: grid; 
   grid-template: repeat(auto-fit, minmax(213px, 1fr)) / repeat(auto-fit, minmax(284px, 1fr));
   gap: 1rem;
 }
 
-@media screen and (max-width: 1024px) {
-  .photo-grid {
-    max-width: 90.625%;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .photo-grid {
-    max-width: 93.75%;
+    max-width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 430px) {
   .photo-grid {
-    max-width: 90%;
+    max-width: calc(100% - 32px);
     padding: 0 16px;
   }
 }

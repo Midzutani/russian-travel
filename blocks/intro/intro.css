@@ -2,7 +2,6 @@
   margin: 0; 
   max-width: 100%;
   width: 53.9%; 
-  max-height: 429px; 
   padding: 0 34.5% 0 11.7%;
 }
 
@@ -15,15 +14,14 @@
 
 @media screen and (max-width: 769px) {
   .intro {
-    width: 93.6%;
+    width: calc(100% - 48px);
     padding: 0 3.125%;
   }
 }
 
 @media screen and (max-width: 430px) {
   .intro {
-    width: 90%;
-    max-height: 754px;
+    width: calc(100% - 32px);
     padding: 0 16px;
   }
 }

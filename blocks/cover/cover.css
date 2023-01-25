@@ -1,11 +1,12 @@
 .cover {
   text-align: center;
-  padding: 0 48px;
-  overflow: hidden;
+  min-width: calc(100% - 96px);
+  margin: auto;
 }
 
 @media screen and (max-width: 1030px) {
   .cover {
     padding: 0;
+    min-width: 100%
   }
 }
