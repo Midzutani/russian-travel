@@ -1,6 +1,4 @@
-<h1>Путешествие по России</h1>
-
-[text](https://midzutani.github.io/russian-travel/index.html)
+[#Путешествие по России#](https://midzutani.github.io/russian-travel/index.html)
 
 ### Примененные технологии:
 * Grid layout
