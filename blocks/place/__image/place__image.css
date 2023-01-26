@@ -5,17 +5,18 @@
   object-fit: cover;
   grid-row: 2 / 4;
   order: 3;
+  max-width: 460px;
 }
 
 
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 1030px) {
   .place__image {
-    width: 100%;
+    max-width: 440px;
   }
 }
 
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 770px) {
   .place__image {
     max-width: 340px;
   }

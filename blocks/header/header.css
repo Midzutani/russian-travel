@@ -7,13 +7,13 @@
   padding: 28px 0 56px 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1030px) {
   .header {
     padding: 28px 0 48px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .header {
     max-width: calc(100% - 48px);
   }
