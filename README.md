@@ -26,3 +26,5 @@ cover - блок-ссылка с затенением.
 
 footer - подвал сайта.
 <blockquote>Пространство разделено с помощью flexbox свойства space-between</blockquote>
+
+[ссылка на pages](https://midzutani.github.io/russian-travel/index.html)
